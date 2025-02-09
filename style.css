@@ -115,3 +115,18 @@ textarea {
     color: white;
     background-color: cornflowerblue;
 }
+
+@media (max-width: 500px){
+    .masthead h1 {
+        font-size: 15px;
+    }
+
+    .intro p {
+        font-size: 13px;
+    }
+
+    .test-area {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+}
