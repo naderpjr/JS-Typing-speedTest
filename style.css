@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Gandom";
+    src: url(./fonts/Vazir.ttf);
+}
+
+body {
+    font-family: "Gandom", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    padding: 1em 2em;
+    background-color: #3768c2;
+    color: white;
+}
+
+.masthead h1 {
+    text-align: center;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: #ffffff;
+    background: #6495ed;
+}
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.test-area {
+    margin-bottom: 4em;
+}
+
+textarea {
+    font-size: 19px;
+    padding: 15px;
+    font-family: "Gandom", sans-serif;
+}
+
+textarea::placeholder {
+    font-family: "Gandom", sans-serif;
+    font-size: 15px;
+}
+
+.test-wrapper {
+    border: 5px solid #6495ed;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: #ededed;
+    margin-top: 7px;
+    font-family: "Gandom", sans-serif;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+    font-family: "Gandom", sans-serif;
+}
+
+.test-wrapper {
+    height: 200%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pattern {
+    direction: rtl;
+    padding-top: 10px;
+
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+#reset {
+    font-family: "Gandom", sans-serif;
+    padding: 0 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: 5px solid #6495ed;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
