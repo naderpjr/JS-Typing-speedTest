@@ -1,4 +1,3 @@
-// Type Testing code 
 
 const theTimer = document.querySelector(".timer");
 const testArea = document.querySelector("#test-area");
